@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 public class DummyService {
 
     public void checkNull() {
-        String str = null; // ⚠️ 의도적 오류
+        String str = null;
         System.out.println(str.length());
     }
 }
